@@ -1,3 +1,12 @@
+/*
+ * Convert string to lowercase.
+ * Initiate two pointers (left -> 0th index and right -> (n-1)th index).
+ * If character at either of these two pointers is not a valid alphanumeric, move pointers.
+ * Check characters at left and right pointers for equality.
+ *
+ * Time complexity - O(n)
+ * Space complexity - O(1)
+ */
 class Solution {
     public boolean isPalindrome(String s) {
         s = s.toLowerCase();
