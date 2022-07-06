@@ -1,5 +1,11 @@
-import java.util.HashMap;
-
+/*
+ * Maintain a HashMap with element -> index mapping.
+ * Iterate through the array.
+ * During each iteration, check if the difference (target - current element) is present in the map.
+ *
+ * Time complexity - O(n)
+ * Space complexity - O(n)
+ */
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         var map = new HashMap<Integer, Integer>();
